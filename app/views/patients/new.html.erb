@@ -1,0 +1,13 @@
+<%= form_for(@patient) do |f| %>
+    <div class="field">
+        <%= f.label :name %><br>
+        <%= f.text_field :name %><br>
+    </div>
+    <div class="field">
+        <%= f.label :surname %><br>
+        <%= f.text_field :surname %><br>
+    </div>
+    <div class="actions">
+        <%= f.submit %>
+    </div>
+<% end %>
